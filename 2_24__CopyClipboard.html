@@ -1,0 +1,11 @@
+<script src="dist/clipboard.min.js"></script>
+
+<input type ="text" placeholder="Enter value" id="myText">
+
+<button data-clipbboard-target="myText">
+	Copy
+</button>
+
+<script>
+	new Clipboard("button");
+</script>
